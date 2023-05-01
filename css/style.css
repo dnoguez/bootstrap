@@ -1,0 +1,53 @@
+
+
+.logo {
+    position: absolute;
+    width: 127px;
+    height: 101px;
+    left: 50px;
+    top: 32px;
+}
+
+.topNav {
+    display: flex;
+    background-color: var(--Secondary-light);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.topNav .nav-link{
+    color: #D9D9D9;
+}
+
+.topNav .nav-link.active{
+    color: black;
+}
+
+.heroImg{
+    padding: 40px;
+}
+
+@media (max-width: 991.98px) {
+    .heroImg{
+        padding: 20px;
+    }
+}
+
+.hero{
+    padding: 80px 0;
+}
+
+.h3{
+    display: flex;
+    background-color: var(--Secondary-light);
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: large;
+}
